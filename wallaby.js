@@ -13,6 +13,9 @@ module.exports = () => {
 		],
 		env: {
 			type: 'node',
+		},
+		preprocessors: {
+        	'**/*.json': file => file.content.replace('.ts', '.js')
 		}
 	};
 };
