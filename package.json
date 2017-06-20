@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "example",
+  "version": "0.0.0",
+  "main": "src/entry.ts",
+  "typings": "src/entry.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "ts-node --ignore=false src/entry.ts",
+    "test": "jasmine --helper=jasmine.helper.js src/**/*.spec.ts"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.5.52",
+    "@types/node": "8.0.0",
+    "jasmine": "2.6.0",
+    "ts-node": "3.0.6",
+    "typescript": "2.3.4"
+  }
+}
