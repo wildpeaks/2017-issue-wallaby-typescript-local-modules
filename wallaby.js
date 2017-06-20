@@ -6,7 +6,6 @@ module.exports = () => {
 		files: [
 			'src/**/*.ts',
 			{pattern: 'src/**/package.json', instrument: false, load: false},
-			// {pattern: 'src/**/package.json', instrument: false, load: false},
 			'!src/**/*.spec.ts'
 		],
 		tests: [
